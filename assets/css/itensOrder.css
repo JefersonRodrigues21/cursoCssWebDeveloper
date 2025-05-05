@@ -1,0 +1,26 @@
+.container {
+    background: blueviolet;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    display: flex;
+    gap: 10px;
+}
+
+#container-01 {
+    flex-flow: row wrap;    
+}
+#container-02 {
+    flex-flow: column wrap;
+}
+.item {
+    padding: 8px;
+    background: yellow;
+}
+
+.item-04 {
+    order: -1;
+}
+.item-09 {
+    order: -2;/*aqui o item 09 vem primeiro porque -2 vem antes de -1,0,1,2...*/
+}

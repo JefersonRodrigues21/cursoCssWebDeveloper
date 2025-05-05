@@ -25,6 +25,7 @@
 
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .item {
@@ -50,15 +51,22 @@
     height: 300px;
 }
 
-#item-1 {
+#example-05 {
+    flex-direction: row;
+}
+#example-06 {
+    flex-direction: column;
+}
+
+.item-1 {
     width: 50px;
     height: 50px;
 }
-#item-2 {
+.item-2 {
     width: 80px;
     height: 80px;
 }
-#item-3 {
-    width: 80px;
-    height: 80px;
+.item-3 {
+    width: 40px;
+    height: 40px;
 }
