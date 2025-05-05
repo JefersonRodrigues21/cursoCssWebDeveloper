@@ -1,0 +1,42 @@
+.container {
+    background: yellow;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 500px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr 2fr); /*define o tamanho das 3 colunas que muda proporcionalmente. Auto fill(ocupa maior nº de colunas na linha e Auto fit(ocupa todo o espaço disponível na tela*/
+    grid-template-rows: repeat(2, 1fr);/*aqui precisa de uma referência, no caso o height*/
+}
+
+.item {
+    border: 1px solid black;
+}
+
+.item-01 {
+    background: palevioletred;
+}
+
+.item-02 {
+    background-color: cornflowerblue;
+}
+
+.item-03 {
+    background-color: palegreen;
+}
+
+.item-04 {
+    background-color: orange;
+}
+
+.item-05 {
+    background-color: cadetblue;
+}
+
+.item-06 {
+    background-color: aqua;
+}
+
+.item-07 {
+    background-color: tomato;
+}
