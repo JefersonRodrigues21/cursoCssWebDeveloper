@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    border: 3px solid;
+    grid-template: repeat(3, 200px) / repeat(3, 1fr);
+
+    padding: 15px;
+    gap: 15px; /*serve para horizontal e vertical*/
+}
+
+.item-1 {
+    background: palegoldenrod;
+}
+.item-2 {
+    background: paleturquoise;
+}
+.item-3 {
+    background: palegreen;
+}
+.item-4 {
+    background: palevioletred;
+}
+.item-5 {
+    background: peachpuff;
+}
+.item-6 {
+    background: green;
+}
+.item-7 {
+    background: blueviolet;
+}
+.item-8 {
+    background: pink;
+}
+.item-9 {
+    background: yellowgreen;
+}
